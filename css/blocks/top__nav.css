@@ -1,0 +1,50 @@
+.top__header {
+  padding: 0.7rem 0;
+  background: rgba(0, 21, 53, 0.3);
+  display: block;
+  width: 100%;
+}
+.logo__img {
+  max-width: 55%;
+}
+.logo__title-top {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.logo__title-top .red-text {
+  font-family: "MuseoSansCyrl-900";
+  font-size: 1.5rem;
+}
+.logo__title-bottom {
+  font-size: 0.9rem;
+  font-family: "MuseoSansCyrl-300";
+}
+.list {
+  justify-content: space-between;
+  list-style-type: none;
+}
+.list__item-link {
+  font-size: 0.9rem;
+  font-family: "MuseoSansCyrl-300";
+}
+.list__item-link:hover {
+  text-decoration: underline;
+}
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contacts__phone {
+  font-size: 1rem;
+  font-family: "MuseoSansCyrl-700";
+}
+.contacts__recall {
+  padding: 0.8rem 1.3rem;
+  border: 1px solid #e02827;
+  color: #e02827;
+  font-family: "MuseoSansCyrl-300";
+  font-size: 0.8rem;
+  border-radius: 2px;
+  margin-left: 2rem;
+}
